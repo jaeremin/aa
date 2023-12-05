@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+  <meta charset="utf-8">
+  <title>레시피</title>
+
+  <style>
+  body {
+    display: flex;
+
+        height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .link-img {
+        margin-top: 100%;
+        margin-bottom: 0;
+      }
+
+      .photo-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #333;
+        padding: 20px;
+        max-width: 800px;
+        width: 100%;
+      }
+
+      .photo1,
+      .photo2,
+      .photo3 {
+        width: 30%;
+        height: auto;
+        margin: 10px 0;
+      }
+
+    .photo2{
+      margin-top: 101% ;
+      margin-bottom: 0; /* 두 번째와 세 번째 사진에만 특정 높이 설정 */
+      margin-left:-90%;
+     }
+
+
+    .photo3 {
+    margin-top: 100% ;
+    margin-bottom: 0; /* 두 번째와 세 번째 사진에만 특정 높이 설정 */
+    margin-left:10%;
+   }
+   .photo1 {
+   margin-top: 0;
+   margin-bottom: 100%; /* 두 번째와 세 번째 사진에만 특정 높이 설정 */
+   margin-right: 50%;
+   margin left: 20px;
+  }
+
+
+
+       </style>
+
+ </head>
+<body>
+  <div class="container">
+  <a href="application index.html" class="link-img">
+    <img src="001.png" alt="링크 이미지" style="width:auto; height:auto;">
+  </a>
+
+<div class = "photo-box">
+  <a href ="인기 레시피.html"><img src="커뮤니티 베레.png" alt="Photo 1" class="photo1">
+  <img src="레시피 올리기.png" alt="Photo 2" class="photo2">
+  <img src="내가 올린 레시피.png" alt="Photo 3" class="photo3">
+</div>
+</body>
